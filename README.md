@@ -5,5 +5,5 @@ Responsive Web Design - Project 1: Cat Photo App (HTML + CSS)
 First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.
 Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
 
-#Website Screenshot
+# Website Screenshot
 ![Cat Photo App Website](https://github.com/cocoDev21/FCC-Cat-Photo-App/blob/AnimalCrossing_Theme/web_ss.png)
