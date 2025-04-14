@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cpa.css">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+        <header>
+                <h1>Cat Photo App</h1> 
+                <span class="cat-icon">
+                    <img id="icon_img" src="smile.png" alt="cpa_icon" target="_blank">
+                </span>
+        </header>
+      <section class="section_1">
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online! See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <div class="cat_image_row">
+            <a href="https://freecatphotoapp.com">
+                <img id="cat_image1" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+                <img src="https://static.wikia.nocookie.net/silly-cat/images/4/4d/Mr._Fresh.png/revision/latest?cb=20240117170647&format=original" alt="Mr.Fresh Meme">
+                <img src="https://i.pinimg.com/736x/b8/3d/74/b83d74d9f6a43e738a9d4d24996a8cd1.jpg" alt="crying kitten Meme">
+                <img src="https://i.pinimg.com/736x/90/68/d3/9068d39a1cc4173c33a69bd11a127fab.jpg">
+                <img src="https://i.pinimg.com/736x/f6/d0/0a/f6d00a247fa38686475a7cbf6b1a641d.jpg">
+                <img src="https://i.pinimg.com/736x/6d/4a/02/6d4a022b29ce165692672be0d35ec1df.jpg">
+                <img src="https://i.pinimg.com/736x/37/a3/d8/37a3d89ac9b353725ca39c9a14d052bb.jpg">
+                <img src="https://i.pinimg.com/736x/43/61/09/4361091dd491bacbbcdbaa0be7a2d2be.jpg">
+            </div>
+
+
+      </section>
+      <section class="section_2">
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <div class="cat_list_images">
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+            <img src="https://i.pinimg.com/736x/83/9b/e8/839be89f82cb957ee2fab676c69b3093.jpg">
+            <img src="https://i.pinimg.com/736x/1a/19/05/1a19057c46bce7efaab097cf26adb226.jpg">
+        </div>
+        <br>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <div class="cat_hates_images">
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats <strong>hate</strong> other cats. Cats are naturally territorial animals, and their sense of territory is deeply ingrained. This territoriality often leads to conflicts with unfamiliar cats, as they perceive these newcomers as intruders who threaten their resources, such as food, water, and safe resting spots. Cats establish their territory through scent marking, scratching, and visual displays, and any disruption to this carefully constructed environment can cause stress and anxiety. While some cats can learn to coexist peacefully, especially if raised together from a young age, the introduction of a new cat into an established household can trigger defensive behaviors and aggression due to this innate territorial instinct.   
+
+                </figcaption>  
+            </figure>
+            <figure>
+                <img src="https://i.pinimg.com/736x/b0/6d/68/b06d6807048b42723d0b81c0b984165e.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats' aversion to flea treatment is often multifaceted, stemming from both the application process and the treatment itself. Many flea treatments involve topical liquids or sprays that have a strong, medicinal odor, which cats find unpleasant. The sensation of being restrained and having a cold, wet substance applied to their fur can also be distressing for cats, who value their independence and meticulous grooming routines. Furthermore, some cats may experience mild skin irritation or discomfort as a side effect of the treatment, further reinforcing their negative association with the process. Therefore, a cat's resistance to flea treatment is usually a combination of sensory aversion, procedural stress, and potential physical discomfort. </figcaption>  
+            </figure>
+            <figure>
+                <img src="https://i.pinimg.com/736x/05/46/c6/0546c6faa2a6a804d172d084ee584d9c.jpg" alt="Five cats looking around a field.">
+                <figcaption>The intense fear that many cats display during thunderstorms is a complex reaction involving a combination of factors. The loud, booming sounds of thunder can be overwhelming and painful to a cat's sensitive hearing, which is far more acute than that of humans. Additionally, the accompanying changes in barometric pressure, static electricity, and flashes of lightning can create a sensory overload that triggers a cat's fight-or-flight response. Cats often seek out hiding places during storms to feel safe and secure, demonstrating their instinct to protect themselves from perceived danger. This behavior is not simply a dislike but a manifestation of a deep-seated fear rooted in their physiology and survival instincts. </figcaption>  
+            </figure>
+        </div>
+        
+      </section>
+
+
+      <section class="section_3">
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+            <legend>Name</legend>
+            <input type="text" name="catname" placeholder="cat name" required>
+        </fieldset>
+        <fieldset>
+            <legend>Breed Type</legend>
+            <input type="text" name="breed" placeholder="cat breed" required>
+        </fieldset>
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          </fieldset>
+          <button type="submit" id="submit-url">Submit</button>
+
+        </form>
+      </section>
+
+
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+      <p> Designed by Trisha Quismundo</p>
+    </footer>
+  </body>
+</html>
